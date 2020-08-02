@@ -1,7 +1,7 @@
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import { MainStackNavigator, FavoriteStackNavigator } from "./StackNavigators";
 import Colors from "../constants/Colors";
+import { MainStackNavigator, FavoriteStackNavigator } from "./StackNavigators";
 
 const Tab = createBottomTabNavigator();
 

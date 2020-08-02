@@ -13,11 +13,12 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "이 앱이 주변의 맛집 데이터를 검색하기 위해 당신의 위치 정보에 접근하기를 원합니다."
+      }
     },
     "web": {
       "favicon": "./assets/favicon.png"

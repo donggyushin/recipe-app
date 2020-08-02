@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const MealScreen = () => {
+const MealScreen = ({ navigation }) => {
   return (
     <View>
       <Text>MealScreen</Text>

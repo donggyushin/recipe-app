@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
-const CategorieMealScreen = () => {
+const CategorieMealScreen = ({ navigation }) => {
   return (
     <View>
       <Text>CategorieMealScreen</Text>
